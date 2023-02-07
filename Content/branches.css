@@ -1,0 +1,88 @@
+#main2{
+    padding: 0;
+    margin: 0;
+    height: 1200px;
+    width: 100%;
+    background-color: rgb(245, 244, 244);
+}
+.block{
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    width: 85%;
+    height: 265px;
+    gap: 1em;
+}
+.block2{
+    margin: auto;
+    margin-top: 7px;
+    display: flex;
+    width: 85%;
+    height: 265px;
+    gap: 1em;
+}
+.info{
+    margin: auto;
+    display: flex;
+    width: 85%;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+.info button{
+    position: inherit;
+    box-sizing: border-box;
+    height: 30px;
+    width: 170px;
+    border: 2px solid rgb(25, 70, 138);
+    color: #fff;
+    background-color: rgb(25, 70, 138);
+    font-size: 15px;
+    padding: 4px 7px;
+    border-radius: 4px;
+    transition: all .5s ease;
+}
+.info button:hover{
+    background-color: #fff;
+    color: rgb(50, 50, 51);
+    border: 2px solid rgb(50, 50, 51);
+}
+.box{
+    width: 380px;
+    height: 255px;
+    box-sizing: border-box;
+    box-shadow: 0 12px 16px 0 rgba(0,0, 0, 0.24) , 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.overlay{
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: 0;
+    background-color: rgb(25, 70, 138);
+    transition: 0.5s ease;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.overlaytxt{
+    color: #fff;
+}
+.step{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    color: rgb(226, 225, 225);
+    font-size: 17px;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: cursive;
+}
